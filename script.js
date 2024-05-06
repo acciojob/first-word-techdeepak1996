@@ -2,7 +2,7 @@ function firstWord(s) {
   if (!s || !s.includes(' ')) {
     return s;
   }
-  return s.split(' ')[0];
+  return s.trim().split(' ')[0];
 }
 // Do not change the code below
 
